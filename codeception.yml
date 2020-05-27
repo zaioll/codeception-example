@@ -12,3 +12,6 @@ settings:
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
+        - Codeception\Extension\DotReporter
+reporters:
+    report: Codeception\Extension\DotReporter
