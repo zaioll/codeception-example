@@ -1,0 +1,14 @@
+version: "3.5"
+
+services:
+  php:
+    image: zaioll/php-zts:7.2
+    container_name: app
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8000:8000"
+    environment:
+      ENABLE_XDEBUG: 1
+      XDEBUG_CONFIG: "remote_enable=1 remote_autostart=1 remote_host=10.1.1.103 idekey=VSCODE"
+      ENABLE_OPCACHE: 1
