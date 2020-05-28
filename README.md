@@ -32,8 +32,13 @@ $ xcodecept run
 
 ![imagem](public/assets/images/selecao.png)
 
+![imagem](public/assets/images/remote1.gif)
 ### Sem XDebug
 
 ```
 alias codecept=/usr/bin/php -n $PWD/vendor/bin/codecept"
 ```
+
+## Visualização testes de aceitação
+
+![](public/assets/images/remote.gif)
